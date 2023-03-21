@@ -1,7 +1,9 @@
 #include "Tester.h"
-
 #include <iostream>
+#include "../Sorts/selectionSort.h"
 
 void DoSomeTests() {
-	std::cout << "Hello, world!" << std::endl;
-}
+
+	sortBySelection(a);
+	printArr(a);
+};
